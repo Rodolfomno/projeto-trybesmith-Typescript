@@ -86,7 +86,7 @@ O código para cadastro de pessoas usuárias deve ser criado por você utilizand
 ---
 
 ## Data de Entrega
-  - Será `X` dia de projeto.
+  - Será `1` dia de projeto.
   - Data de entrega para avaliação final do projeto: `05/04/2022 14:00`.
 
 ---
@@ -465,7 +465,7 @@ Uma estratégia é pular todos os testes no início e ir implementando um teste 
   - **[Será validado que o campo "classe" é obrigatório]**
     - Se a requisição não tiver o campo "classe", o resultado retornado deverá ser um _status http_ `400` e
     ```json
-      { "error": "classe is required" }
+      { "error": "Classe is required" }
     ```
 
   - **[Será validado que o campo "classe" tem o tipo string]**
@@ -517,7 +517,7 @@ Uma estratégia é pular todos os testes no início e ir implementando um teste 
     ```
 
   - **[Será validado que o campo "password" é uma string com 8 ou mais caracteres]**
-    - Se o campo "password" não for do tipo `string` com mais de 8 caracteres, o resultado retornado deverá ser um _status http_ `422` e
+    - Se o campo "password" não for do tipo `string` com mais de 7 caracteres, o resultado retornado deverá ser um _status http_ `422` e
     ```json
       { "error": "Password must be longer than 7 characters" }
     ```
