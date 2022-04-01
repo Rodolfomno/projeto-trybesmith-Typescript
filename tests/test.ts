@@ -153,7 +153,7 @@ describe("2 - Crie um endpoint para o cadastro de produtos", () => {
   });
 });
 
-describe.only("3 - Crie um endpoint para o cadastro de pessoas usuárias", () => {
+describe("3 - Crie um endpoint para o cadastro de pessoas usuárias", () => {
   beforeEach(async () => {
     await recreateDatabase();
   });
@@ -299,7 +299,7 @@ describe.only("3 - Crie um endpoint para o cadastro de pessoas usuárias", () =>
   });
 });
 
-describe("4 - Crie um endpoint para listar todos os pedidos", () => {
+describe.only("4 - Crie um endpoint para listar todos os pedidos", () => {
 
   beforeEach(async () => {
     await recreateDatabase();
